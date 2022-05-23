@@ -1,0 +1,87 @@
+.historyTitle{
+    font-size:27px;
+    font-weight: 700;
+}
+.historyField {
+    font-size: 14px;
+    font-weight: 500;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+thead tr th {
+  font-weight: 500;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+th,
+td {
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.date-picker-from{
+  margin-right: 3%;
+  float:left;
+}
+.date-picker-to{
+  float: left;
+  margin-right: 3%;
+}
+.picker-dropdown{
+  margin-top: 20px;
+  float: left;
+  margin-right: 17vh;
+  height: 45px;
+}
+.picker-button{
+  margin-top: 15px;
+  float: left;
+}
+.date-picker{
+  background-color: rgb(243, 242, 242);
+  border-color: rgb(182, 180, 180);
+  width:auto;
+}
+.button-sort{
+  outline: none;
+  background-color: blanchedalmond;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  margin: 0px 10px 0px 0px;
+}
+.type-Live{
+  font-weight: 700 !important;
+  color: rgb(35, 172, 35) !important;
+}
+.type-Exchanged{
+  font-weight: 700 !important;
+  color: rgb(53, 53, 211) !important;
+}
+.td-normal{
+  font-weight: 400 !important;
+}
+.dropdown-button{
+  min-width: 140px;
+  position: absolute;
+}
+.dropdown-menu{
+  position: relative;
+}
+.tableData{
+  cursor: pointer;
+}
